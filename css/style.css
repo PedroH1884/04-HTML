@@ -3,16 +3,23 @@
     overflow: hidden;
 }
 
-.barranav a{
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+
+.nav-list li a {
     padding: 40px;
     color: white;
     box-shadow: 0px 0px 3px white;
-    float: left;
-    display: block;
     text-decoration: none;
+    display: block;
 }
 
-.barranav p{
+.barranav p {
     font-size: 20px;
     float: right;
     display: block;
