@@ -1,0 +1,71 @@
+.barranav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.barranav a{
+    padding: 40px;
+    color: white;
+    box-shadow: 0px 0px 3px white;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+
+.barranav p{
+    font-size: 20px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-style: oblique;
+}
+
+.menu{ 
+    background-color: wheat;
+    text-align: center;
+    display: block;
+}
+
+.menu a{ 
+    display: block;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 8px 15px;
+    text-decoration: none;
+}
+
+.menu h2{
+    background-color: black;
+    color: white;
+}
+
+.img{
+    border: 3px solid black;
+    width: 335px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.descricao{
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px;
+}
+
